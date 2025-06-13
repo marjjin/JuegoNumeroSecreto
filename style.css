@@ -1,12 +1,22 @@
 body {
+   
+    display: flex;
+    justify-content: center;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    margin: 15px;
+    padding: 0;
 }
-
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
 h1 {
-    color: #333;
+    color: #000000;
 }
 
 input[type="text"] {
